@@ -15,7 +15,7 @@ foreach ($thing in $item)
     
     remove-item $thing.fullname
 
-    write "$thing.FullName  togs bort $DATE " >> "C:\Users\Felix af Jochnick\Desktop\Python skola\test\happy.log"
+    write "$thing.FullName  togs bort $DATE " >> "full path to log file"
 } 
 
-write "-------------------------------------------" >> "C:\Users\Felix af Jochnick\Desktop\Python skola\test\happy.log"
+write "-------------------------------------------" >> "write to logfile full path"
